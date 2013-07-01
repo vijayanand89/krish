@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>krish</name>
+	<version>1.0</version>
+	<creationDate>1/07/2013</creationDate>
+	<author>VijayAnand</author>
+	<authorEmail>support@themeparrot.com</authorEmail>
+	<copyright>Copyright (C) 2013 - 2021 Weblogicx India Private Limited. All rights reserved.</copyright>
+	<description>Demo project</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>	
+		<folder>html</folder>	
+	</files>
+	<positions>
+	    
+		<position>header-logo</position>
+		<position>navigation</position>
+		<position>slideshow</position>
+		<position>content-top</position>
+		<position>content-middle</position>
+		<position>content-bottom</position>
+		<position>footer</position>
+		<position>footerimg</position>
+	</positions>
+</extension>

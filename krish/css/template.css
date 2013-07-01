@@ -1,0 +1,79 @@
+body {
+    background-image:url('/home/weblogicx/joomla/git/krish/krish/images/background.jpg');
+    background-color:#ffffff;
+    font: 14px/22px 'Times New Roman',Arial,"Helvetica Neue",Helvetica,sans-serif;
+    line-height: 20px;
+    margin: 0;
+}
+.header
+{
+	padding-top:40px;
+
+	
+}
+.navbar
+{
+	text-align: center;
+	display: inline-block;
+    list-style: none outside none;
+    margin: 0;
+    padding-top:40px;
+}
+
+.content_top1,
+.content_top2,
+.content_top3 
+{
+	padding: 40px 30px ;
+    text-align: center;
+    margin-bottom: 27px;
+    border: 1px solid #E2E2E2;
+    margin: 0 0 15px 27px;
+}
+h3 {
+    color: #4A4A4A;
+    font: 26px/30px 'Tinos',Arial,"Helvetica Neue",Helvetica,sans-serif;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    padding-top:15px;
+}
+h4 {
+    color: #4A4A4A;
+    font: 18px/26px 'Times New Roman',Arial,"Helvetica Neue",Helvetica,sans-serif;
+    margin: 0 0 22px;
+    text-transform: uppercase;
+}
+p {
+    color: #9B9B9B;
+    font-size: 14px;
+    margin-bottom: 22px;
+    line-height:160%;
+}
+.more_btn {
+    color: #DE6D53;
+    font: 12px/20px 'Tinos',Arial,"Helvetica Neue",Helvetica,sans-serif;
+    padding: 0;
+    text-transform: uppercase;
+}
+.more_btn:hover {
+    
+    color: #4A4A4A;
+    text-decoration: none;
+   
+}
+.content-middle
+{
+ text-align: center;
+ padding-top:40px;
+}
+.content-middle_img
+{
+   padding-top:30px;	
+}
+.textStyle 
+{
+    color: #4A4A4A;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top:40px;
+}
