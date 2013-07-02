@@ -1,6 +1,5 @@
 body {
     background-image:url('/home/weblogicx/joomla/git/krish/krish/images/background.jpg');
-    background-color:#ffffff;
     font: 14px/22px 'Times New Roman',Arial,"Helvetica Neue",Helvetica,sans-serif;
     line-height: 20px;
     margin: 0;
@@ -8,6 +7,7 @@ body {
 .header
 {
 	padding-top:40px;
+	border-top: 8px solid #DE6D53;
 
 	
 }
@@ -30,6 +30,7 @@ body {
     border: 1px solid #E2E2E2;
     margin: 0 0 15px 27px;
 }
+
 h3 {
     color: #4A4A4A;
     font: 26px/30px 'Tinos',Arial,"Helvetica Neue",Helvetica,sans-serif;
@@ -48,6 +49,7 @@ p {
     font-size: 14px;
     margin-bottom: 22px;
     line-height:160%;
+   
 }
 .more_btn {
     color: #DE6D53;
@@ -76,4 +78,58 @@ p {
     font-size: 18px;
     line-height: 22px;
     padding-top:40px;
+}
+.heading_style {
+	text-align: center;
+    color: #4A4A4A;
+    font: 46px/50px 'Times New Roman',Arial,"Helvetica Neue",Helvetica,sans-serif;
+    letter-spacing: -1px;
+    margin: 0 0 41px;
+    text-transform: uppercase;
+}
+footer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 10px solid #DE6D53;
+    color: #4A4A4A;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.footer_margin {
+    margin-top: 60px;
+}
+.footer_content {
+    list-style: none outside none;
+    margin: 0;
+}
+.footer_content li {
+    display: block;
+    margin-bottom: 3px;
+    position: relative;
+}
+.footer_content li a 
+{
+    color: #989898;
+    display: inline-block;
+    font: 10px/16px 'Times New Roman',Arial,"Helvetica Neue",Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+.footer_content  li a:hover 
+{
+    color: #DE6D53;
+    text-decoration: none;
+}
+.footer_logo 
+{
+    font-size: 90px;
+    line-height: 90px;
+    margin-bottom: 7px;
+    
+}
+.footer_text
+{
+	color: #DE6D53;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
 }

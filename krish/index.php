@@ -53,10 +53,24 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
 	            
 	  </section>
 	   <!-- header section ends -->
+	   <!-- main content starts -->
+	   <section class="content-main"><!--main content section starts here-->
+		<div class="container"><!--content container starts here-->
+			
+			<jdoc:include type="message" />
+			<jdoc:include type="component" />
+			
+    	</div><!--content container ends here-->
+	   </section><!--main content section ends here-->
+	<!--main content ends -->
 	   <!-- slideshow starts -->
-	 
-	  
-	  
+	     <section class="slideshow">
+	      <div class="row">
+	      <?php if($this->countModules('slideshow')): ?>
+	      <jdoc:include type="modules" name="slideshow" style="xhtml" />
+	      </div>
+	       <?php endif; ?>
+	      </section>
 	   <!-- slideshow ends -->
 	   <!-- content-top section starts -->
 		 <section class="content-top"><!--contetnt-top section starts here  -->
@@ -74,9 +88,26 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
 	  <?php if($this->countModules('content-middle')): ?>
 	      <jdoc:include type="modules" name="content-middle" style="xhtml" />
 	  
-	    </div><!-- content-middle container ends here -->
+	      </div><!-- content-middle container ends here -->
 	    <?php endif; ?>
 	  </section><!-- content-middle section ends -->
 	  <!-- content-middle ends -->
+	  <!-- content-bottom starts -->
+	  <section class="content-bottom">
+	    <?php if($this->countModules('content-bottom')): ?>
+	      <jdoc:include type="modules" name="content-bottom" style="xhtml" />
+	 </section>
+	  <?php endif; ?>
+	  <!-- content-bottom ends -->
+	  <!-- footer starts -->
+	  <footer>
+	  
+	 <?php if($this->countModules('footer')): ?>
+	      <jdoc:include type="modules" name="footer" style="xhtml" />
+	    
+	  
+	  </footer>
+	   <?php endif; ?>
+	  <!-- footer ends -->
 </body>
 </html>
