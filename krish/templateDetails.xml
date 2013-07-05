@@ -18,14 +18,21 @@
 		<folder>html</folder>	
 	</files>
 	<positions>
-	    
-		<position>header-logo</position>
+	    <position>header-logo</position>
 		<position>navigation</position>
 		<position>slideshow</position>
 		<position>content-top</position>
 		<position>content-middle</position>
 		<position>content-bottom</position>
-		<position>footer</position>
-		
+		<position>content-right</position>
+		<position>bottom1</position>
+		<position>bottom2</position>
+		<position>bottom3</position>
+		<position>bottom4</position>
+		<position>footer1</position>
+		<position>footer2</position>
+		<position>footer3</position>
+		<position>footer4</position>
+		<position>footer-logo</position>
 	</positions>
 </extension>
